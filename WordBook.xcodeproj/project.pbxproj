@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF75DBBB17AFE75C0007F9F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF75DBBA17AFE75C0007F9F3 /* UIKit.framework */; };
+		FF75DBBD17AFE75C0007F9F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF75DBBC17AFE75C0007F9F3 /* Foundation.framework */; };
+		FF75DBBF17AFE75C0007F9F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF75DBBE17AFE75C0007F9F3 /* CoreGraphics.framework */; };
+		FF75DBC517AFE75C0007F9F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF75DBC317AFE75C0007F9F3 /* InfoPlist.strings */; };
+		FF75DBC717AFE75C0007F9F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75DBC617AFE75C0007F9F3 /* main.m */; };
+		FF75DBCB17AFE75D0007F9F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75DBCA17AFE75D0007F9F3 /* AppDelegate.m */; };
+		FF75DBCD17AFE75D0007F9F3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FF75DBCC17AFE75D0007F9F3 /* Default.png */; };
+		FF75DBCF17AFE75D0007F9F3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF75DBCE17AFE75D0007F9F3 /* Default@2x.png */; };
+		FF75DBD117AFE75D0007F9F3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF75DBD017AFE75D0007F9F3 /* Default-568h@2x.png */; };
+		FF75DBD417AFE75D0007F9F3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF75DBD217AFE75D0007F9F3 /* MainStoryboard.storyboard */; };
+		FF75DBD717AFE75D0007F9F3 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75DBD617AFE75D0007F9F3 /* MasterViewController.m */; };
+		FF75DBDA17AFE75D0007F9F3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75DBD917AFE75D0007F9F3 /* DetailViewController.m */; };
+		FF75DBE217AFE75D0007F9F3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF75DBE117AFE75D0007F9F3 /* SenTestingKit.framework */; };
+		FF75DBE317AFE75D0007F9F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF75DBBA17AFE75C0007F9F3 /* UIKit.framework */; };
+		FF75DBE417AFE75D0007F9F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF75DBBC17AFE75C0007F9F3 /* Foundation.framework */; };
+		FF75DBEC17AFE75D0007F9F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF75DBEA17AFE75D0007F9F3 /* InfoPlist.strings */; };
+		FF75DBEF17AFE75D0007F9F3 /* WordBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75DBEE17AFE75D0007F9F3 /* WordBookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF75DBE517AFE75D0007F9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF75DBAF17AFE75C0007F9F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF75DBB617AFE75C0007F9F3;
+			remoteInfo = WordBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF75DBB717AFE75C0007F9F3 /* WordBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF75DBBA17AFE75C0007F9F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF75DBBC17AFE75C0007F9F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF75DBBE17AFE75C0007F9F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF75DBC217AFE75C0007F9F3 /* WordBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordBook-Info.plist"; sourceTree = "<group>"; };
+		FF75DBC417AFE75C0007F9F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF75DBC617AFE75C0007F9F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF75DBC817AFE75D0007F9F3 /* WordBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordBook-Prefix.pch"; sourceTree = "<group>"; };
+		FF75DBC917AFE75D0007F9F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF75DBCA17AFE75D0007F9F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF75DBCC17AFE75D0007F9F3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FF75DBCE17AFE75D0007F9F3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FF75DBD017AFE75D0007F9F3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FF75DBD317AFE75D0007F9F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FF75DBD517AFE75D0007F9F3 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		FF75DBD617AFE75D0007F9F3 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		FF75DBD817AFE75D0007F9F3 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FF75DBD917AFE75D0007F9F3 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FF75DBE017AFE75D0007F9F3 /* WordBookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordBookTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF75DBE117AFE75D0007F9F3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF75DBE917AFE75D0007F9F3 /* WordBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordBookTests-Info.plist"; sourceTree = "<group>"; };
+		FF75DBEB17AFE75D0007F9F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF75DBED17AFE75D0007F9F3 /* WordBookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordBookTests.h; sourceTree = "<group>"; };
+		FF75DBEE17AFE75D0007F9F3 /* WordBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordBookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF75DBB417AFE75C0007F9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF75DBBB17AFE75C0007F9F3 /* UIKit.framework in Frameworks */,
+				FF75DBBD17AFE75C0007F9F3 /* Foundation.framework in Frameworks */,
+				FF75DBBF17AFE75C0007F9F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF75DBDC17AFE75D0007F9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF75DBE217AFE75D0007F9F3 /* SenTestingKit.framework in Frameworks */,
+				FF75DBE317AFE75D0007F9F3 /* UIKit.framework in Frameworks */,
+				FF75DBE417AFE75D0007F9F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF75DBAE17AFE75C0007F9F3 = {
+			isa = PBXGroup;
+			children = (
+				FF75DBC017AFE75C0007F9F3 /* WordBook */,
+				FF75DBE717AFE75D0007F9F3 /* WordBookTests */,
+				FF75DBB917AFE75C0007F9F3 /* Frameworks */,
+				FF75DBB817AFE75C0007F9F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF75DBB817AFE75C0007F9F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF75DBB717AFE75C0007F9F3 /* WordBook.app */,
+				FF75DBE017AFE75D0007F9F3 /* WordBookTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF75DBB917AFE75C0007F9F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF75DBBA17AFE75C0007F9F3 /* UIKit.framework */,
+				FF75DBBC17AFE75C0007F9F3 /* Foundation.framework */,
+				FF75DBBE17AFE75C0007F9F3 /* CoreGraphics.framework */,
+				FF75DBE117AFE75D0007F9F3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF75DBC017AFE75C0007F9F3 /* WordBook */ = {
+			isa = PBXGroup;
+			children = (
+				FF75DBC917AFE75D0007F9F3 /* AppDelegate.h */,
+				FF75DBCA17AFE75D0007F9F3 /* AppDelegate.m */,
+				FF75DBD217AFE75D0007F9F3 /* MainStoryboard.storyboard */,
+				FF75DBD517AFE75D0007F9F3 /* MasterViewController.h */,
+				FF75DBD617AFE75D0007F9F3 /* MasterViewController.m */,
+				FF75DBD817AFE75D0007F9F3 /* DetailViewController.h */,
+				FF75DBD917AFE75D0007F9F3 /* DetailViewController.m */,
+				FF75DBC117AFE75C0007F9F3 /* Supporting Files */,
+			);
+			path = WordBook;
+			sourceTree = "<group>";
+		};
+		FF75DBC117AFE75C0007F9F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF75DBC217AFE75C0007F9F3 /* WordBook-Info.plist */,
+				FF75DBC317AFE75C0007F9F3 /* InfoPlist.strings */,
+				FF75DBC617AFE75C0007F9F3 /* main.m */,
+				FF75DBC817AFE75D0007F9F3 /* WordBook-Prefix.pch */,
+				FF75DBCC17AFE75D0007F9F3 /* Default.png */,
+				FF75DBCE17AFE75D0007F9F3 /* Default@2x.png */,
+				FF75DBD017AFE75D0007F9F3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF75DBE717AFE75D0007F9F3 /* WordBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF75DBED17AFE75D0007F9F3 /* WordBookTests.h */,
+				FF75DBEE17AFE75D0007F9F3 /* WordBookTests.m */,
+				FF75DBE817AFE75D0007F9F3 /* Supporting Files */,
+			);
+			path = WordBookTests;
+			sourceTree = "<group>";
+		};
+		FF75DBE817AFE75D0007F9F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF75DBE917AFE75D0007F9F3 /* WordBookTests-Info.plist */,
+				FF75DBEA17AFE75D0007F9F3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF75DBB617AFE75C0007F9F3 /* WordBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF75DBF217AFE75D0007F9F3 /* Build configuration list for PBXNativeTarget "WordBook" */;
+			buildPhases = (
+				FF75DBB317AFE75C0007F9F3 /* Sources */,
+				FF75DBB417AFE75C0007F9F3 /* Frameworks */,
+				FF75DBB517AFE75C0007F9F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordBook;
+			productName = WordBook;
+			productReference = FF75DBB717AFE75C0007F9F3 /* WordBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF75DBDF17AFE75D0007F9F3 /* WordBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF75DBF517AFE75D0007F9F3 /* Build configuration list for PBXNativeTarget "WordBookTests" */;
+			buildPhases = (
+				FF75DBDB17AFE75D0007F9F3 /* Sources */,
+				FF75DBDC17AFE75D0007F9F3 /* Frameworks */,
+				FF75DBDD17AFE75D0007F9F3 /* Resources */,
+				FF75DBDE17AFE75D0007F9F3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF75DBE617AFE75D0007F9F3 /* PBXTargetDependency */,
+			);
+			name = WordBookTests;
+			productName = WordBookTests;
+			productReference = FF75DBE017AFE75D0007F9F3 /* WordBookTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF75DBAF17AFE75C0007F9F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Takeshi Bingo";
+			};
+			buildConfigurationList = FF75DBB217AFE75C0007F9F3 /* Build configuration list for PBXProject "WordBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF75DBAE17AFE75C0007F9F3;
+			productRefGroup = FF75DBB817AFE75C0007F9F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF75DBB617AFE75C0007F9F3 /* WordBook */,
+				FF75DBDF17AFE75D0007F9F3 /* WordBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF75DBB517AFE75C0007F9F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF75DBC517AFE75C0007F9F3 /* InfoPlist.strings in Resources */,
+				FF75DBCD17AFE75D0007F9F3 /* Default.png in Resources */,
+				FF75DBCF17AFE75D0007F9F3 /* Default@2x.png in Resources */,
+				FF75DBD117AFE75D0007F9F3 /* Default-568h@2x.png in Resources */,
+				FF75DBD417AFE75D0007F9F3 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF75DBDD17AFE75D0007F9F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF75DBEC17AFE75D0007F9F3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF75DBDE17AFE75D0007F9F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF75DBB317AFE75C0007F9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF75DBC717AFE75C0007F9F3 /* main.m in Sources */,
+				FF75DBCB17AFE75D0007F9F3 /* AppDelegate.m in Sources */,
+				FF75DBD717AFE75D0007F9F3 /* MasterViewController.m in Sources */,
+				FF75DBDA17AFE75D0007F9F3 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF75DBDB17AFE75D0007F9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF75DBEF17AFE75D0007F9F3 /* WordBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF75DBE617AFE75D0007F9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF75DBB617AFE75C0007F9F3 /* WordBook */;
+			targetProxy = FF75DBE517AFE75D0007F9F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF75DBC317AFE75C0007F9F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF75DBC417AFE75C0007F9F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF75DBD217AFE75D0007F9F3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF75DBD317AFE75D0007F9F3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		FF75DBEA17AFE75D0007F9F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF75DBEB17AFE75D0007F9F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF75DBF017AFE75D0007F9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF75DBF117AFE75D0007F9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF75DBF317AFE75D0007F9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordBook/WordBook-Prefix.pch";
+				INFOPLIST_FILE = "WordBook/WordBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF75DBF417AFE75D0007F9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordBook/WordBook-Prefix.pch";
+				INFOPLIST_FILE = "WordBook/WordBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FF75DBF617AFE75D0007F9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WordBook.app/WordBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordBook/WordBook-Prefix.pch";
+				INFOPLIST_FILE = "WordBookTests/WordBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FF75DBF717AFE75D0007F9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WordBook.app/WordBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordBook/WordBook-Prefix.pch";
+				INFOPLIST_FILE = "WordBookTests/WordBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF75DBB217AFE75C0007F9F3 /* Build configuration list for PBXProject "WordBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF75DBF017AFE75D0007F9F3 /* Debug */,
+				FF75DBF117AFE75D0007F9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF75DBF217AFE75D0007F9F3 /* Build configuration list for PBXNativeTarget "WordBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF75DBF317AFE75D0007F9F3 /* Debug */,
+				FF75DBF417AFE75D0007F9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF75DBF517AFE75D0007F9F3 /* Build configuration list for PBXNativeTarget "WordBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF75DBF617AFE75D0007F9F3 /* Debug */,
+				FF75DBF717AFE75D0007F9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF75DBAF17AFE75C0007F9F3 /* Project object */;
+}
