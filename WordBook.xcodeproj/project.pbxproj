@@ -24,6 +24,12 @@
 		FF75DBE417AFE75D0007F9F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF75DBBC17AFE75C0007F9F3 /* Foundation.framework */; };
 		FF75DBEC17AFE75D0007F9F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF75DBEA17AFE75D0007F9F3 /* InfoPlist.strings */; };
 		FF75DBEF17AFE75D0007F9F3 /* WordBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75DBEE17AFE75D0007F9F3 /* WordBookTests.m */; };
+		FF75DC0517AFE7DD0007F9F3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF75DBF817AFE7DD0007F9F3 /* icon.png */; };
+		FF75DC0617AFE7DD0007F9F3 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75DBFC17AFE7DD0007F9F3 /* NSObject+SBJSON.m */; };
+		FF75DC0717AFE7DD0007F9F3 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75DBFE17AFE7DD0007F9F3 /* NSString+SBJSON.m */; };
+		FF75DC0817AFE7DD0007F9F3 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75DC0017AFE7DD0007F9F3 /* SBJsonBase.m */; };
+		FF75DC0917AFE7DD0007F9F3 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75DC0217AFE7DD0007F9F3 /* SBJsonParser.m */; };
+		FF75DC0A17AFE7DD0007F9F3 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75DC0417AFE7DD0007F9F3 /* SBJsonWriter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,18 @@
 		FF75DBEB17AFE75D0007F9F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF75DBED17AFE75D0007F9F3 /* WordBookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordBookTests.h; sourceTree = "<group>"; };
 		FF75DBEE17AFE75D0007F9F3 /* WordBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordBookTests.m; sourceTree = "<group>"; };
+		FF75DBF817AFE7DD0007F9F3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FF75DBFA17AFE7DD0007F9F3 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		FF75DBFB17AFE7DD0007F9F3 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		FF75DBFC17AFE7DD0007F9F3 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		FF75DBFD17AFE7DD0007F9F3 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		FF75DBFE17AFE7DD0007F9F3 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		FF75DBFF17AFE7DD0007F9F3 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		FF75DC0017AFE7DD0007F9F3 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		FF75DC0117AFE7DD0007F9F3 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		FF75DC0217AFE7DD0007F9F3 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		FF75DC0317AFE7DD0007F9F3 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		FF75DC0417AFE7DD0007F9F3 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +108,8 @@
 		FF75DBAE17AFE75C0007F9F3 = {
 			isa = PBXGroup;
 			children = (
+				FF75DBF817AFE7DD0007F9F3 /* icon.png */,
+				FF75DBF917AFE7DD0007F9F3 /* SBJson */,
 				FF75DBC017AFE75C0007F9F3 /* WordBook */,
 				FF75DBE717AFE75D0007F9F3 /* WordBookTests */,
 				FF75DBB917AFE75C0007F9F3 /* Frameworks */,
@@ -165,6 +185,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FF75DBF917AFE7DD0007F9F3 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				FF75DBFA17AFE7DD0007F9F3 /* JSON.h */,
+				FF75DBFB17AFE7DD0007F9F3 /* NSObject+SBJSON.h */,
+				FF75DBFC17AFE7DD0007F9F3 /* NSObject+SBJSON.m */,
+				FF75DBFD17AFE7DD0007F9F3 /* NSString+SBJSON.h */,
+				FF75DBFE17AFE7DD0007F9F3 /* NSString+SBJSON.m */,
+				FF75DBFF17AFE7DD0007F9F3 /* SBJsonBase.h */,
+				FF75DC0017AFE7DD0007F9F3 /* SBJsonBase.m */,
+				FF75DC0117AFE7DD0007F9F3 /* SBJsonParser.h */,
+				FF75DC0217AFE7DD0007F9F3 /* SBJsonParser.m */,
+				FF75DC0317AFE7DD0007F9F3 /* SBJsonWriter.h */,
+				FF75DC0417AFE7DD0007F9F3 /* SBJsonWriter.m */,
+			);
+			path = SBJson;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,6 +250,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Takeshi Bingo";
+				TargetAttributes = {
+					FF75DBB617AFE75C0007F9F3 = {
+						DevelopmentTeam = JG2S9R2SZ9;
+					};
+				};
 			};
 			buildConfigurationList = FF75DBB217AFE75C0007F9F3 /* Build configuration list for PBXProject "WordBook" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -241,6 +284,7 @@
 				FF75DBCF17AFE75D0007F9F3 /* Default@2x.png in Resources */,
 				FF75DBD117AFE75D0007F9F3 /* Default-568h@2x.png in Resources */,
 				FF75DBD417AFE75D0007F9F3 /* MainStoryboard.storyboard in Resources */,
+				FF75DC0517AFE7DD0007F9F3 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +323,11 @@
 				FF75DBCB17AFE75D0007F9F3 /* AppDelegate.m in Sources */,
 				FF75DBD717AFE75D0007F9F3 /* MasterViewController.m in Sources */,
 				FF75DBDA17AFE75D0007F9F3 /* DetailViewController.m in Sources */,
+				FF75DC0617AFE7DD0007F9F3 /* NSObject+SBJSON.m in Sources */,
+				FF75DC0717AFE7DD0007F9F3 /* NSString+SBJSON.m in Sources */,
+				FF75DC0817AFE7DD0007F9F3 /* SBJsonBase.m in Sources */,
+				FF75DC0917AFE7DD0007F9F3 /* SBJsonParser.m in Sources */,
+				FF75DC0A17AFE7DD0007F9F3 /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,9 +436,11 @@
 		FF75DBF317AFE75D0007F9F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WordBook/WordBook-Prefix.pch";
 				INFOPLIST_FILE = "WordBook/WordBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,9 +449,11 @@
 		FF75DBF417AFE75D0007F9F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WordBook/WordBook-Prefix.pch";
 				INFOPLIST_FILE = "WordBook/WordBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -459,6 +512,7 @@
 				FF75DBF417AFE75D0007F9F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF75DBF517AFE75D0007F9F3 /* Build configuration list for PBXNativeTarget "WordBookTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +521,7 @@
 				FF75DBF717AFE75D0007F9F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
